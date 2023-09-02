@@ -29,6 +29,6 @@ with app.app_context():
 with app.app_context():
     new_book = Book(id=1, title="Harry Potter", author="J. K. Rowling", rating=9.3)
     db.session.add(new_book)
-    db.session.commit()
+    db.session.commit(c
 
 
